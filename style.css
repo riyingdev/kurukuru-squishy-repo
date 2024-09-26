@@ -1,0 +1,45 @@
+body{
+    background: #e2a9ff;
+    font-family: "DIN Medium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+#kuru{
+    position: absolute;
+}
+#container{
+    position: absolute;
+    top: 15%;
+    font-size: 50px;
+}
+#counter{
+    font-family: "DIN Medium";
+    background-color: #e593ff;
+    position: absolute;
+    bottom: 10%;
+    border-color: #e06eff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 50px;
+    transition: transform 0.3s cubic-bezier(0,-0.01,0,2.04);
+}
+#counter:hover{
+    transform: scale(1.1);
+}
+#counter:active{
+    transform: scale(1.05);
+}
+#mute{
+    font-size: 30px;
+    font-family: "DIN Medium";
+    background-color: #e06eff;
+    position: relative;
+    right: 40%;
+    bottom: 45%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
